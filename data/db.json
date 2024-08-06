@@ -1,0 +1,16 @@
+{
+    "productos": [
+        { "id": 1, "nombre": "Iphone 11 Pro Max", "foto": "/img/apple-iphone-11-pro-max.webp", "descripcion": "$819.995"},
+        { "id": 2, "nombre": "IPhone 12", "foto": "/img/apple-iphone-12.webp", "descripcion": "$950.000"},
+        { "id": 3, "nombre": "Camara Canon", "foto": "/img/camara-canon.webp", "descripcion": "$854.126,99"},
+        { "id": 4, "nombre": "Celular Samsung", "foto": "/img/samsung-galaxy-s21-plus-5g.webp", "descripcion": "$700.399" },
+        { "id": 5, "nombre": "Choromecast", "foto": "/img/chromecast-google.webp", "descripcion": "$50.900"},
+        { "id": 6, "nombre": "DJI Mavic 2 Pro", "foto": "/img/dji-mavic-2-pro.webp", "descripcion": "$2.074.990"},
+        { "id": 7, "nombre": "DJI Drone", "foto": "/img/drone-dji.webp", "descripcion": "$900.000"},
+        { "id": 8, "nombre": "Modem Motorola", "foto": "/img/modem-motorola.webp", "descripcion": "$28.920"},
+        { "id": 9, "nombre": "Motorola Moto e7", "foto": "/img/motorola-moto-e7.webp", "descripcion": "$228.576"},
+        { "id": 10, "nombre": "Notbook Lenovo", "foto": "/img/notebook-lenovo.webp", "descripcion": "$739.500"},
+        { "id": 11, "nombre": "Jbl Flip 5", "foto": "/img/parlante-jbl.webp", "descripcion": "$209.999"},
+        { "id": 12, "nombre": "Tv Samsung", "foto": "/img/samsung-tu7000.webp", "descripcion": "$601.399"}
+    ]
+} 

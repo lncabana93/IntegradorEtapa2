@@ -1,0 +1,97 @@
+.card {
+  background-color: rgb(248, 246, 244);
+  margin-top: 1rem;
+  border: solid 1px rgba(0, 0, 0, 0.335);
+  width: 220px;
+  height: 330px;
+  max-width: 300px;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 0.3rem;
+  transition: all 0.2s; /* ! No puede ser all */
+
+  &:hover,
+  &:focus {
+    transform: scale(1.1) skew(0) rotate(0deg);
+    transform-origin: bottom;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5);
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.3rem;
+  }
+
+  &:hover &__image,
+  &:focus &__image {
+    transform: scale(0.9) rotate(0deg);
+    transform-origin: center;
+  }
+
+  &__image-container {
+    background-color: rgb(248, 246, 244);
+    height: 200px;
+    /*   background-color: blue; */
+    overflow: hidden;
+    /*   clip-path: polygon(0 0, 100% 0, 100% 200px, 0 180px) */ /* Estado inicial */
+  }
+
+  &:hover &__image-container,
+  &:focus &__image-container {
+    clip-path: polygon(0 0, 100% 0, 100% 190px, 0 200px); /* Estado final */
+  }
+
+  /* ----------------------------------------- */
+
+  @media (max-width: 768px) {
+    & {
+      /* .card */
+      min-width: 400px;
+      max-width: 500px;
+      height: 200px;
+    }
+
+    &__article {
+      /* .card__article */
+      display: flex;
+    }
+
+    &__image-container {
+      /* .card .card__image-container */
+      width: 40%;
+      /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%) */ /* Estado inicial */
+    }
+
+    &:hover &__image-container,
+    &:focus &__image-container {
+      width: 40%;
+      /*    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */ /* Estado final */
+    }
+  }
+
+  &__heading {
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+    font-size: 1.3em;
+  }
+ 
+  &__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 0.5rem;
+    margin-top: .5rem;
+    font-size: 1em;
+    font-weight: bolder;
+    color: rgb(0, 127, 115);;
+    background-color: rgb(248, 246, 244);
+  }
+
+
+}
+
+

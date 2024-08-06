@@ -1,0 +1,82 @@
+.main-nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.section-nosotros {
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+}
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-variant: small-caps;
+  font-size: 3em;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border: solid 1px rgba(0, 0, 0, 0.335);
+  border-radius: 0.3rem;
+  width: 100%;
+}
+.video-container {
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: 1;
+  flex-grow: 1;
+  background-color:black;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 0.3rem;
+}
+video {
+  border-radius: 0.3rem;
+  width: 80vw;
+  height: 60vh;
+}
+
+.p-nosotros {
+  margin-top: 1rem;
+  font-size: 1em;
+  text-align: center;
+  font-weight: bolder;
+  padding-left: 0.5rem;
+  flex-grow: 1;
+  width: 100%;
+  border: solid 1px rgba(0, 0, 0, 0.335);
+  border-radius: 0.3rem;
+}
+h2 {
+  margin-top: 1rem;
+}
+.gps_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  flex-grow: 1;
+  width: 100%;
+}
+iframe {
+  min-width: 10vw;
+  max-width: 15vw;
+  border-radius: 0.3rem;
+}
+.suscripcion {
+  margin-top: 1rem;
+  text-align: center;
+  border: solid 1px rgba(0, 0, 0, 0.335);
+  border-radius: 0.3rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+.oficinas {
+  text-align: center;
+  width: 100%;
+  margin-top: 1rem;
+  border: solid 1px rgba(0, 0, 0, 0.335);
+  border-radius: 0.3rem;
+}

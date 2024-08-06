@@ -1,0 +1,96 @@
+@media (min-width: 576px) {
+  .main-header {
+    min-height: 100px;
+  }
+
+  #busqueda {
+    margin-left: 2rem;
+    min-width: 25vw;
+    max-width: 30vw;
+    margin-right: 1rem;
+  }
+  .search-bar__form-submit {
+    min-width: 10vw;
+    position: relative;
+    right: 3.5rem;
+  }
+  .search-bar__logo-container {
+    margin-top: 1rem;
+    min-width: 10rem;
+    min-height: 5rem;
+  }
+  .search-bar__carrito-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-bottom: 0.2rem;
+    flex: 0 0 3rem; /* shorthand (grow shrink basis */
+  }
+
+  .card {
+    flex-grow: 1;
+  }
+}
+
+/*----------------------------*/
+/*  ESTRELLAS DE PUNTUACION   */
+/*----------------------------*/
+.rating_star {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  margin-top: 0.5rem;
+  min-width: 18vw;
+  max-width: 19vw;
+  transform: rotate(180deg);
+  color: rgba(220, 95, 0, 0.527);
+}
+
+.input-star {
+  display: none;
+}
+.label-star {
+  padding: 0.1rem;
+  font-size: 0.6em;
+}
+.input-star:focus,
+.label-star:hover {
+  transform: scale(1.2) skew(0) rotate(0deg);
+  color: rgb(220, 95, 0);
+  transform-origin: bottom;
+  cursor: pointer;
+}
+
+/*----------------------------*/
+/*      CARRITO HEADER        */
+/*----------------------------*/
+
+.inpunt-header {
+  display: none;
+}
+.label-header {
+  min-width: 2vw;
+  max-width: 2vw;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/*----------------------------*/
+/*      CARRITO CARD          */
+/*----------------------------*/
+.carrito_compra {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0.8rem;
+  font-size: 1em;
+  color: rgba(0, 127, 114, 0.64);;
+}
+.cmpI {
+  display: none;
+}
+.cmpI:focus,
+.cmpL:hover {
+  transform: scale(1.2) skew(0) rotate(0deg);
+  color: rgb(0, 127, 115);
+  cursor: pointer;
+}

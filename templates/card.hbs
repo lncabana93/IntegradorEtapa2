@@ -1,0 +1,31 @@
+{{#each productos}}
+    <div class="card">
+        <article class="card__article">
+            <div class="card__image-container">
+            <img src="{{foto}}" alt="{{nombre}}" class="card__image">
+            </div>
+            <div class="card__content">
+            <h2 class="card__heading">{{nombre}}</h2>
+            <div class="card__description">
+                <p>{{descripcion}}</p>
+            </div>
+            </div>
+             <div class="rating_star">
+                  <input class="input-star" type="radio" name="rating" id=star1>
+                  <label class="label-star" for="star-1"><i class="fa-solid fa-star"></i></label>
+                  <input class="input-star" type="radio" name="rating" id=star2>
+                  <label class="label-star"  for="star-2"><i class="fa-solid fa-star"></i></label>
+                  <input class="input-star" type="radio" name="rating" id=star3>
+                  <label class="label-star"  for="star-3"><i class="fa-solid fa-star"></i></label>
+                  <input class="input-star" type="radio" name="rating" id=star4>
+                  <label class="label-star"  for="star-4"><i class="fa-solid fa-star"></i></label>
+                  <input class="input-star" type="radio" name="rating" id=star5>
+                  <label class="label-star"  for="star-5"><i class="fa-solid fa-star"></i></label>
+                  </div> <!-- rating -->
+                   <div class="carrito_compra"> 
+                    <input class="cmpI"  type="button" id="comprar">
+                    <label class="cmpL" for="comprar"><i class="fa-solid fa-cart-shopping"></i></label>
+                    </div> <!-- carrito -->
+        </article>
+    </div> 
+{{/each}}

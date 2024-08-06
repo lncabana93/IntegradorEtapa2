@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">  <!-- incono de estrellas  -->
+  <link rel="stylesheet" href="https://fontawesome.com/icons/cart-shopping?f=classic&s=solid">
+    <title>Proyecto Integrador - Inicio</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <input type="checkbox" id="menu">
+      <nav class="nav-bar">
+        <ul class="nav-bar__nav-list">
+          <li class="nav-bar__nav-item">
+            <a href="#" class="nav-bar__nav-link">Inicio</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="#" class="nav-bar__nav-link">Alta</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="/views/nosotros.html" class="nav-bar__nav-link">Nosotros</a>
+          </li>
+          <li class="nav-bar__nav-item">
+            <a href="/views/contacto.html" class="nav-bar__nav-link">Contacto</a>
+          </li>
+        </ul>
+      </nav> <!-- .nav-bar -->
+
+      <div class="search-bar">
+        <div class="search-bar__logo-container"><img class="search-bar__logo-ecomerce" src="/img/f31fdbfd12b83132bbf565f3d1cb1636.jpg" alt=""></div>
+        <form action="#" class="search-bar__form-container">
+          <label for="busqueda" class="search-bar__form-label"></label>
+          <input type="search" class="search-bar__form-search" placeholder="Buscar productos, marcas y mas..." id="busqueda">
+          <input type="submit" class="search-bar__form-submit" value="Buscar">
+        </form>
+        <div class="search-bar__carrito-container"> 
+          <input class="inpunt-header" type="button" id="carrito-confirmacion">
+          <label class="label-header" for="carrito-confirmacion"><i class="fa-solid fa-cart-shopping"></i></label>
+        </div>
+        <div class="menu-toogle">
+          <label for="menu" class="menu-toogle__label">
+            <span class="menu-toogle__top-bread"></span>
+            <span class="menu-toogle__meat"></span>
+            <span class="menu-toogle__bottom-bread"></span>
+          </label>
+        </div>
+      </div> <!-- .search-bar -->
+
+    </header> <!-- main-header -->
+
+    <main>
+      <section class="section-cards">  
+        <header class="section-cards__header">
+         <!--  <h1>Seccion Tecnologica</h1>
+          <p>Se encontraron 12 productos</p> -->
+        </header>
+      
+      
+        <div class="cards-container" id="contenedor-cards">
+      
+          </div> <!-- .card -->
+      </section> <!-- .section-cards -->
+    </main>
+
+    <!-- footer -->
+    <footer class="footer__container">
+
+    <div class="footer__ubicacion">
+    <svg class="ubi" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+      </div>
+        <div class="footer__pais">
+            <p>Argentina</p>
+        </div>
+        <div class="footer__autor">
+        <p>© 2024 Luciano Cabaña - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
